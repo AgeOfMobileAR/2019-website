@@ -1,27 +1,34 @@
-# 2019-website
+# 2019-vuewebsite
 
-[2019 - Age of Mobile ](https://ageofmobile.tech/)
-
-## Development
-
-```bash
-# install dependencies
+## Project setup
+```
 npm install
-
-# run project locally
-npm run start
 ```
 
-## Deployment
-
-```bash
-npm run build-prod
-git add -A
-git commit -m "My awesome commit"
-git push origin master
-npm run deploy
+### Compiles and hot-reloads for development
+```
+npm run serve
 ```
 
-## Licence
+### Compiles and minifies for production
+```
+npm run build
+```
 
-MIT
+### Run your tests
+```
+npm run test
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Run your unit tests
+```
+npm run test:unit
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).

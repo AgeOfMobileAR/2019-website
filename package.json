@@ -1,48 +1,36 @@
 {
-    "name": "2019-website",
-    "version": "1.0.0",
-    "scripts": {
-        "build-prod": "gulp build --production",
-        "deploy": "gh-pages -d dist",
-        "start": "gulp",
-        "start-prod": "gulp --production",
-        "task": "gulp --"
-    },
-    "author": "durancristhian@gmail.com",
-    "license": "MIT",
-    "dependencies": {
-        "aload": "^1.2.3",
-        "autoprefixer": "^6.7.7",
-        "babel-preset-latest": "^6.24.0",
-        "babelify": "^7.3.0",
-        "browser-sync": "^2.18.8",
-        "browserify": "^14.1.0",
-        "cssnano": "^3.10.0",
-        "del": "^2.2.2",
-        "eslint": "^3.17.1",
-        "eslint-plugin-promise": "^3.5.0",
-        "event-stream": "^3.3.4",
-        "glob": "^7.1.1",
-        "gulp": "^3.9.1",
-        "gulp-eslint": "^3.0.1",
-        "gulp-htmlmin": "^3.0.0",
-        "gulp-if": "^2.0.2",
-        "gulp-imagemin": "^3.1.1",
-        "gulp-postcss": "^6.3.0",
-        "gulp-rev": "^8.0.0",
-        "gulp-rev-collector": "^1.2.2",
-        "gulp-sourcemaps": "^2.4.1",
-        "gulp-stylelint": "^3.9.0",
-        "gulp-uglify": "^2.1.0",
-        "gulp-uncss": "^1.0.6",
-        "gulp-util": "^3.0.8",
-        "postcss-import": "^9.1.0",
-        "stylelint-formatter-pretty": "^1.0.3",
-        "stylelint-order": "^0.4.4",
-        "vinyl-buffer": "^1.0.0",
-        "vinyl-source-stream": "^1.1.0"
-    },
-    "devDependencies": {
-        "gh-pages": "^2.0.1"
-    }
+  "name": "2019-vuewebsite",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test:unit": "vue-cli-service test:unit"
+  },
+  "dependencies": {
+    "core-js": "^2.6.5",
+    "register-service-worker": "^1.6.2",
+    "vue": "^2.6.10",
+    "vue-class-component": "^7.0.2",
+    "vue-property-decorator": "^8.1.0",
+    "vue-router": "^3.0.3",
+    "vue2-flip-countdown": "^0.5.3",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.1.4",
+    "@vue/cli-plugin-babel": "^3.7.0",
+    "@vue/cli-plugin-pwa": "^3.7.0",
+    "@vue/cli-plugin-typescript": "^3.7.0",
+    "@vue/cli-plugin-unit-jest": "^3.7.0",
+    "@vue/cli-service": "^3.7.0",
+    "@vue/test-utils": "1.0.0-beta.29",
+    "babel-core": "7.0.0-bridge.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.1.0",
+    "ts-jest": "^23.0.0",
+    "typescript": "^3.4.3",
+    "vue-template-compiler": "^2.5.21"
+  }
 }
