@@ -1,5 +1,5 @@
 <template>
-  <div id="app" style="background-image: url(https://www.ppt-backgrounds.net/thumbs/comic-book-clip-art-background-backgrounds.jpg);">
+  <div id="app" :style="{'background-image': `url(${require('@/assets/header_bg.jpg')})`}">
     <Header/>
     <router-view/>
     <Footer/>
