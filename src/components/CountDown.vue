@@ -27,7 +27,7 @@ import { Component, Prop, Vue } from "vue-property-decorator";
 
 @Component
 export default class Countdown extends Vue {
-  countDownClock = (number = 100, format = "seconds") => {
+  countDownClock = (deadline = 100, format = "seconds") => {
     const d = document;
     const daysElement = d.querySelector(".days");
     const hoursElement = d.querySelector(".hours");
@@ -36,16 +36,16 @@ export default class Countdown extends Vue {
     let countdown;
     convertFormat(format);
 
-    function convertFormat(format) {
-      switch (format) {
+    function convertFormat(formatType) {
+      switch (formatType) {
         case "seconds":
-          return timer(number);
+          return timer(deadline);
         case "minutes":
-          return timer(number * 60);
+          return timer(deadline * 60);
         case "hours":
-          return timer(number * 60 * 60);
+          return timer(deadline * 60 * 60);
         case "days":
-          return timer(number * 60 * 60 * 24);
+          return timer(deadline * 60 * 60 * 24);
       }
     }
 
@@ -72,7 +72,7 @@ export default class Countdown extends Vue {
       secondsElement.textContent =
         seconds % 60 < 10 ? `0${seconds % 60}` : seconds % 60;
     }
-  };
+  }
 
   /*
   start countdown
