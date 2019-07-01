@@ -28,8 +28,8 @@ import { Component, Prop, Vue } from "vue-property-decorator";
 
 @Component
 export default class Sponsors extends Vue {
-  mailto(){
-    window.location.href='mailto:ageofmobilear@gmail.com';
+  mailto() {
+    window.location.href = "mailto:ageofmobilear@gmail.com";
   }
 }
 </script>
