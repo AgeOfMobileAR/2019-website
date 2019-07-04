@@ -1,6 +1,7 @@
 <template>
   <div>
     <AboutUs/>
+    <!-- <Agenda/> -->
     <Speakers/>
     <Sponsors/>
     <Team/>

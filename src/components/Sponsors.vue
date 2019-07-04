@@ -1,22 +1,13 @@
 <template>
   <section id="sponsors" class="sponsors-section" data-aos="fade-up" data-aos-delay="100">
-    <div class="outer-box">
-      <div class="box">
-        <h2>Sponsors</h2>
-      </div>
+    <HeroTitle :heroTitle="'Sponsors'" />
+    <div class="speaker-dialog" @click="mailto" title="ageofmobilear@gmail.com">
+      <p>¡¡Quiero ser Sponsor!!</p>
     </div>
-      <img src="@/assets/superheroes/Male-1.png" alt>
-      <div class="speaker-dialog" @click="mailto" title="ageofmobilear@gmail.com">
-        <img src="@/assets/chat.png" alt>
-        <p>¡¡Convertirte en Sponsor!!</p>
-      </div>
     <div class="sponsors">
       <div class="sponsor-lg">
-        <a href="https://www.frba.utn.edu.ar/">
-        <img
-          src="@/assets/sponsors/UTNBA.png"
-          alt
-        >
+        <a href="https://www.frba.utn.edu.ar/" target="_blank">
+          <img src="@/assets/sponsors/UTNBA.png" alt />
         </a>
       </div>
     </div>
@@ -25,8 +16,13 @@
 
 <script lang="ts">
 import { Component, Prop, Vue } from "vue-property-decorator";
+import HeroTitle from "@/components/HeroTitle.vue";
 
-@Component
+@Component({
+  components: {
+    HeroTitle
+  }
+})
 export default class Sponsors extends Vue {
   mailto() {
     window.location.href = "mailto:ageofmobilear@gmail.com";
@@ -36,43 +32,28 @@ export default class Sponsors extends Vue {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-@import "@/styles/foldCorner.scss";
-
-.sponsors-section {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
-  width: 90%;
-  position: relative;
-  margin: 15px auto;
-  overflow: hidden;
-  @include folded-corner(white, 2em, 60deg);
+section {
+  width: 100%;
+  box-sizing: border-box;
 
   .speaker-dialog {
     position: relative;
-    width: 60vw;
-    height: 8em;
     cursor: pointer;
+    text-align: center;
 
-    img {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
     p {
-      position: absolute;
-      top: 0;
-      left: 0;
+      display: inline-block;
       text-align: center;
-      width: 100%;
-      margin: 2em 0;
+      margin: 0 0 2em 0;
       font-size: 1.5em;
       text-transform: uppercase;
-      text-decoration: underline;
+      background-color: #071f28;
+      color: white;
+      padding: 1em;
+
+      &:hover {
+        background-color: #0b3547;
+      }
     }
   }
 
@@ -83,15 +64,25 @@ export default class Sponsors extends Vue {
   }
 
   .sponsors {
-    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 
     .sponsor-lg {
-      margin: auto;
-      text-align: center;
+      height: 136px;
+      max-width: 360px;
+      background-color: white;
+      backface-visibility: hidden;
+      transform: translateZ(0);
+      transition: transform 0.25s ease-out;
+      padding: 1em;
+
+      &:hover {
+        transform: scale(1.05);
+      }
 
       img {
-        height: 100%;
-        margin: auto;
+        max-width: 100%;
       }
     }
   }
