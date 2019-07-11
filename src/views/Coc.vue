@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <section :style="{'background-image': `url(${require('@/assets/content_blue.png')})`}">
     <div class="site-wrap">
       <!-- <div>
         <div class="container">
@@ -12,12 +12,8 @@
           </div>
         </div>
       </div>-->
-      <section data-aos="fade-up" data-aos-delay="100">
-        <div class="outer-box">
-          <div class="box">
-            <h2>Propósito</h2>
-          </div>
-        </div>
+      <div data-aos="fade-up" data-aos-delay="100">
+        <HeroTitle :heroTitle="'Propósito'" />
         <div data-aos="fade-up" data-aos-delay="200">
           <p>
             Un objetivo principal de todas las conferencias y grupos de usuarios que se refieran a este
@@ -41,13 +37,9 @@
             para todos.
           </p>
         </div>
-      </section>
-      <section data-aos="fade-up" data-aos-delay="100">
-        <div class="outer-box">
-          <div class="box">
-            <h2>Ciudadanía de Código / Cultura / Tecnología abierta</h2>
-          </div>
-        </div>
+      </div>
+      <div data-aos="fade-up" data-aos-delay="100">
+        <HeroTitle :heroTitle="'Ciudadanía de Código / Cultura / Tecnología abierta'" />
         <div data-aos="fade-up" data-aos-delay="200">
           <p>
             Un objetivo suplementario de este Código de Conducta es incrementar la ciudadanía de
@@ -72,13 +64,9 @@
             saberlo.
           </p>
         </div>
-      </section>
-      <section data-aos="fade-up" data-aos-delay="100">
-        <div class="outer-box">
-          <div class="box">
-            <h2>Comportamiento esperado</h2>
-          </div>
-        </div>
+      </div>
+      <div data-aos="fade-up" data-aos-delay="100">
+        <HeroTitle :heroTitle="'Comportamiento esperado'" />
         <div data-aos="fade-up" data-aos-delay="200">
           <ul>
             <li>
@@ -100,13 +88,9 @@
             </li>
           </ul>
         </div>
-      </section>
-      <section data-aos="fade-up" data-aos-delay="100">
-        <div class="outer-box">
-          <div class="box">
-            <h2>Comportamiento inaceptable</h2>
-          </div>
-        </div>
+      </div>
+      <div data-aos="fade-up" data-aos-delay="100">
+        <HeroTitle :heroTitle="'Comportamiento inaceptable'" />
         <div data-aos="fade-up" data-aos-delay="200">
           <p>
             Comportamientos inaceptables incluyen: discursos o acciones intimidantes, acosadores,
@@ -137,13 +121,9 @@
             deseada.
           </p>
         </div>
-      </section>
-      <section data-aos="fade-up" data-aos-delay="100">
-        <div class="outer-box">
-          <div class="box">
-            <h2>Consecuencias del comportamiento inaceptable</h2>
-          </div>
-        </div>
+      </div>
+      <div data-aos="fade-up" data-aos-delay="100">
+        <HeroTitle :heroTitle="'Consecuencias del comportamiento inaceptable'" />
         <div data-aos="fade-up" data-aos-delay="200">
           <p>
             No serán tolerados los comportamientos inaceptables de parte de cualquier miembro de la
@@ -166,13 +146,9 @@
             pago).
           </p>
         </div>
-      </section>
-      <section data-aos="fade-up" data-aos-delay="100">
-        <div class="outer-box">
-          <div class="box">
-            <h2>Si es testigo o víctima de comportamiento inaceptable</h2>
-          </div>
-        </div>
+      </div>
+      <div data-aos="fade-up" data-aos-delay="100">
+        <HeroTitle :heroTitle="'Si es testigo o víctima de comportamiento inaceptable'" />
         <div data-aos="fade-up" data-aos-delay="200">
           <p>
             Si Ud. es víctima o testigo de comportamiento inaceptable, o tiene cualquier otra
@@ -200,13 +176,9 @@
             también proveerán escolta a las personas que hayan sufrido dichas experiencias.
           </p>
         </div>
-      </section>
-      <section data-aos="fade-up" data-aos-delay="100">
-        <div class="outer-box">
-          <div class="box">
-            <h2>Desagravios</h2>
-          </div>
-        </div>
+      </div>
+      <div data-aos="fade-up" data-aos-delay="100">
+        <HeroTitle :heroTitle="'Desagravios'" />
         <div data-aos="fade-up" data-aos-delay="200">
           <p>
             Si Ud. siente que ha sido falsa o injustamente acusado/a de violar este Código de Conducta,
@@ -218,13 +190,9 @@
             contemplado y resuelto de acuerdo a las políticas existentes.
           </p>
         </div>
-      </section>
-      <section data-aos="fade-up" data-aos-delay="100">
-        <div class="outer-box">
-          <div class="box">
-            <h2>Alcance</h2>
-          </div>
-        </div>
+      </div>
+      <div data-aos="fade-up" data-aos-delay="100">
+        <HeroTitle :heroTitle="'Alcance'" />
         <div data-aos="fade-up" data-aos-delay="200">
           <p>
             Se espera que todos los participantes de la comunidad (colaboradores/as -pagos o no-,
@@ -237,13 +205,9 @@
             la comunidad.
           </p>
         </div>
-      </section>
-      <section data-aos="fade-up" data-aos-delay="100">
-        <div class="outer-box">
-          <div class="box">
-            <h2>Información de contacto</h2>
-          </div>
-        </div>
+      </div>
+      <div data-aos="fade-up" data-aos-delay="100">
+        <HeroTitle :heroTitle="'Información de contacto'" />
         <div data-aos="fade-up" data-aos-delay="200">
           <ul>
             <li>
@@ -262,13 +226,9 @@
             </li>
           </ul>
         </div>
-      </section>
-      <section data-aos="fade-up" data-aos-delay="100">
-        <div class="outer-box">
-          <div class="box">
-            <h2>Licencia y atribución</h2>
-          </div>
-        </div>
+      </div>
+      <div data-aos="fade-up" data-aos-delay="100">
+        <HeroTitle :heroTitle="'Licencia y atribución'" />
         <div data-aos="fade-up" data-aos-delay="200">
           <p>
             Este código de conducta está basado en el
@@ -279,73 +239,117 @@
             que también es distribuido bajo la misma licencia.
           </p>
         </div>
-      </section>
+      </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script lang="ts">
-import Vue from "vue";
+import { Component, Prop, Vue } from "vue-property-decorator";
+import HeroTitle from "@/components/HeroTitle.vue";
 
+@Component({
+  components: {
+    HeroTitle
+  }
+})
 export default class Coc extends Vue {}
 </script>
 
 <style lang="scss" scoped>
-@import "@/styles/foldCorner.scss";
-
-.site-wrap {
+section {
+  position: absolute;
+  top: 0;
+  left: 0;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
   justify-content: space-evenly;
-  // align-items: center;
-  width: 90%;
-  margin: 5% auto;
-  position: relative;
+  width: 90vw;
+  height: 90vh;
+  margin: 5vh 5vw;
+  padding: 7.5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  box-sizing: border-box;
+  background-size: 100% 100%;
   overflow: hidden;
+  max-height: 90vh;
 
-  section {
-    width: 50%;
+  div {
+    width: auto;
+    height: auto;
     overflow: hidden;
-    background-color: white;
-    position: relative;
-    border: 2px solid black;
-    box-sizing: border-box;
-    // @include folded-corner(white, 2em, 60deg);
+    overflow-y: scroll;
 
-    .outer-box {
-      position: absolute;
-      top: -1px;
-      left: 0;
-      z-index: 1;
-      background: #000;
-      padding: 0.25em;
-      width: 75%;
-      -webkit-clip-path: polygon(0 0, 82% 0, 96% 91%, 0% 100%);
-      clip-path: polygon(0 0, 82% 0, 96% 91%, 0% 100%);
+    p, a, ul {
+      color: white;
+      align-items: center;
+      font-size: 1.5em;
+      text-align: justify;
+  font-family: "Gudea", sans-serif;
 
-      .box {
-        margin-right: 2em;
-        background: gold;
-        padding: 0.5em;
-        width: 96%;
-        -webkit-clip-path: polygon(0 0, 82% 0, 96% 91%, 0% 100%);
-        clip-path: polygon(0 0, 82% 0, 96% 91%, 0% 100%);
-
-        h2 {
-          font-size: 1em;
-          color: black;
-          margin: 0;
-          margin-right: 2em;
-        }
-      }
-    }
-
-    div:nth-child(2) {
-      margin: 1em;
-      margin-top: 4em;
-      // width: 100%;
+  @media (max-width: 800px) {
+      font-size: 1em;
+      }      
     }
   }
 }
+
+// .site-wrap {
+//   display: flex;
+//   flex-direction: row;
+//   flex-wrap: wrap;
+//   justify-content: space-evenly;
+//   // align-items: center;
+//   width: 90%;
+//   margin: 5% auto;
+//   position: relative;
+//   overflow: hidden;
+
+//   section {
+//     width: 50%;
+//     overflow: hidden;
+//     background-color: white;
+//     position: relative;
+//     border: 2px solid black;
+//     box-sizing: border-box;
+//     // @include folded-corner(white, 2em, 60deg);
+
+//     .outer-box {
+//       position: absolute;
+//       top: -1px;
+//       left: 0;
+//       z-index: 1;
+//       background: #000;
+//       padding: 0.25em;
+//       width: 75%;
+//       -webkit-clip-path: polygon(0 0, 82% 0, 96% 91%, 0% 100%);
+//       clip-path: polygon(0 0, 82% 0, 96% 91%, 0% 100%);
+
+//       .box {
+//         margin-right: 2em;
+//         background: gold;
+//         padding: 0.5em;
+//         width: 96%;
+//         -webkit-clip-path: polygon(0 0, 82% 0, 96% 91%, 0% 100%);
+//         clip-path: polygon(0 0, 82% 0, 96% 91%, 0% 100%);
+
+//         h2 {
+//           font-size: 1em;
+//           color: black;
+//           margin: 0;
+//           margin-right: 2em;
+//         }
+//       }
+//     }
+
+//     div:nth-child(2) {
+//       margin: 1em;
+//       margin-top: 4em;
+//       // width: 100%;
+//     }
+//   }
+// }
 </style>

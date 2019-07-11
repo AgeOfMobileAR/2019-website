@@ -1,26 +1,21 @@
 <template>
-  <header :style="{'background-image': `url(${require('@/assets/background.jpg')})`}">
-    <nav>
-      <div class="info-container">
-        <ul>
-          <router-link class="nav-link" to="/">Home</router-link>
-          <router-link class="nav-link" to="/#about">Acerca de</router-link>
-          <router-link class="nav-link" to="/#agenda">Agenda</router-link>
-          <router-link class="nav-link" to="/#speakers">Speakers</router-link>
-          <router-link class="nav-link" to="/#sponsors">Sponsors</router-link>
-          <router-link class="nav-link" to="/#team">Equipo</router-link>
-          <router-link class="nav-link" to="/coc">Código de Conducta</router-link>
-        </ul>
+  <header>
+    <nav :class="open ? 'open' : ''">
+      <div :class="open ? 'nav-icon open' : 'nav-icon'" @click="changeIcon">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
+      <ul :class="open ? 'open' : ''">
+        <router-link class="nav-link" to="/" v-on:click.native="changeIcon">Home</router-link>
+        <router-link class="nav-link" to="/about" v-on:click.native="changeIcon">El evento</router-link>
+        <!-- <router-link class="nav-link" to="/agenda" v-on:click.native="changeIcon">Agenda</router-link> -->
+        <router-link class="nav-link" to="/speakers" v-on:click.native="changeIcon">Speakers</router-link>
+        <router-link class="nav-link" to="/sponsors" v-on:click.native="changeIcon">Sponsors</router-link>
+        <router-link class="nav-link" to="/coc" v-on:click.native="changeIcon">Código de Conducta</router-link>
+      </ul>
     </nav>
-    <div class="logo">
-      <img src="@/assets/logo.png" alt="AoM" />
-    </div>
-    <div class="info">
-      <Countdown />
-      <p>31 AGOSTO 2019</p>
-      <p>UTN.BA - Av. Medrano 951, CABA</p>
-    </div>
   </header>
 </template>
 
@@ -33,65 +28,140 @@ import Countdown from "./CountDown.vue";
     Countdown
   }
 })
-export default class Header extends Vue {}
+export default class Header extends Vue {
+  open: boolean = false;
+
+  changeIcon() {
+    this.open = !this.open;
+  }
+}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+// @import "hamburgers";
+
 header {
   width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-x: center;
   box-sizing: border-box;
-  padding: 1em;
-  
-  .logo {
-    text-align: center;
-
-    img {
-      width: 40%;
-
-      @media (max-width: 600px) {
-          width: 100%;
-      }
-    }
-  }
-
-  .info {
-    width: 100%;
-    margin: 1em 0;
-    color: white;
-    text-align: center;
-
-    p {
-      margin: 0.5em 0;
-      font-size: 2em;
-    }
-  }
 
   nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
+    z-index: 100;
+    font-family: "Bangers", cursive;
+      text-shadow: 2px 2px black;
 
-    .info-container {
-      ul {
-        .nav-link {
-          padding: 10px;
-          // background-color: gold;
-          // border: 2px solid black;
-          // border-radius: 5px;
-          font-size: 1em;
-          margin: 0 5px;
-          text-transform: uppercase;
-          color: white;
-          text-decoration: none;
+    @media (max-width: 800px) {
+      &.open {
+        background-color: rgba(224, 106, 55, 0.9);
+        width: 100vw;
+        height: 100vh;
+      }
+    }
 
-          &:hover {
-            color: black;
+    .nav-icon {
+      width: 50px;
+      height: 35px;
+      position: absolute;
+      top: 2vh;
+      left: 2vh;
+      margin: 0;
+      transform: rotate(0deg);
+      transition: 0.5s ease-in-out;
+      cursor: pointer;
+      display: none;
+
+      @media (max-width: 800px) {
+        display: inline-block;
+      }
+
+      span {
+        display: block;
+        position: absolute;
+        height: 9px;
+        width: 100%;
+        background: #fff;
+        border-radius: 9px;
+        opacity: 1;
+        left: 0;
+        transform: rotate(0deg);
+        transition: 0.25s ease-in-out;
+
+        &:nth-child(1) {
+          top: 0px;
+        }
+
+        &:nth-child(2),
+        &:nth-child(3) {
+          top: 18px;
+        }
+
+        &:nth-child(4) {
+          top: 36px;
+        }
+      }
+
+      &.open {
+        span {
+          &:nth-child(1) {
+            top: 18px;
+            width: 0%;
+            left: 50%;
           }
+
+          &:nth-child(2) {
+            transform: rotate(45deg);
+          }
+
+          &:nth-child(3) {
+            transform: rotate(-45deg);
+          }
+
+          &:nth-child(4) {
+            top: 18px;
+            width: 0%;
+            left: 50%;
+          }
+        }
+      }
+    }
+
+    ul {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+
+      @media (max-width: 800px) {
+        display: none;
+        margin-top: 100px;
+
+        &.open {
+          display: block;
+        }
+      }
+
+      .nav-link {
+        padding: 0.5em;
+        background-color: rgba(224, 106, 55, 0.9);
+        font-size: 1.5em;
+        margin: 0 5px;
+        text-transform: uppercase;
+        color: white;
+        text-decoration: none;
+        transition: transform 0.25s ease-out;
+        clip-path: polygon(4% 0, 100% 0, 99% 100%, 0 94%);
+
+        &:hover {
+          transform: scale(1.05);
+        }
+
+        @media (max-width: 800px) {
+          background-color: transparent;
+          display: block;
+          font-size: 2em;
         }
       }
     }

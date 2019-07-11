@@ -1,63 +1,57 @@
 <template>
-  <section id="team" class="team-section" data-aos="fade-up" data-aos-delay="100">
-    <HeroTitle :heroTitle="'Equipo'" :heroType="'female'" />
-    <div class="container">
-      <div class="team-member" data-aos="fade-up" data-aos-delay="100">
-        <a>
-          <img src="@/assets/organizers/teban.jpg" alt="Teban" />
-        </a>
-        <blockquote>
-          <p class="team-member-name">Esteban Yañez (AKA Teban)</p>
-          <p class="team-member-role">
-            Organizador
-            <a href="https://twitter.com/Teban3010" class="p-2">
-              <i class="fab fa-twitter-square"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/eyanez89/" class="p-2">
-              <i class="fab fa-linkedin"></i>
-            </a>
-          </p>
-        </blockquote>
-      </div>
-      <div class="team-member" data-aos="fade-up" data-aos-delay="100">
-        <a>
-          <img src="@/assets/organizers/nanu.jpg" alt="Nanu" />
-        </a>
-        <blockquote>
-          <p class="team-member-name">Nahir Iberra (AKA Nanu)</p>
-          <p class="team-member-role">
-            Organizador
-            <a href="https://twitter.com/na_iberra" class="p-2">
-              <i class="fab fa-twitter-square"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/niberra/" class="p-2">
-              <i class="fab fa-linkedin"></i>
-            </a>
-          </p>
-        </blockquote>
-      </div>
-      <div class="team-member" data-aos="fade-up" data-aos-delay="100">
-        <a>
-          <img src="@/assets/organizers/seba.jpg" alt="Seba" />
-        </a>
-        <blockquote>
-          <p class="team-member-name">Sebastián Perez (AKA Seba)</p>
-          <p class="team-member-role">
-            Organizador
-            <a href="https://twitter.com/sebaleoperez" class="p-2">
-              <i class="fab fa-twitter-square"></i>
-            </a>
-            <a
-              href="https://www.linkedin.com/in/sebasti%C3%A1n-leonardo-p%C3%A9rez-6881659/"
-              class="p-2"
-            >
-              <span class="icon-linkedin"></span>
-            </a>
-          </p>
-        </blockquote>
-      </div>
+  <div class="team-container">
+    <div class="team-member" data-aos="fade-up" data-aos-delay="100">
+      <a>
+        <img src="@/assets/organizers/teban.jpg" alt="Teban" />
+      </a>
+      <blockquote>
+        <p class="team-member-name">Esteban Yañez (AKA Teban)</p>
+        <p class="team-member-role">
+          <a href="https://twitter.com/Teban3010" class="p-2">
+            <span class="mdi mdi-twitter-box"></span>
+          </a>
+          <a href="https://www.linkedin.com/in/eyanez89/" class="p-2">
+            <span class="mdi mdi-linkedin-box"></span>
+          </a>
+        </p>
+      </blockquote>
     </div>
-  </section>
+    <div class="team-member" data-aos="fade-up" data-aos-delay="100">
+      <a>
+        <img src="@/assets/organizers/nanu.jpg" alt="Nanu" />
+      </a>
+      <blockquote>
+        <p class="team-member-name">Nahir Iberra (AKA Nanu)</p>
+        <p class="team-member-role">
+          <a href="https://twitter.com/na_iberra" class="p-2">
+            <span class="mdi mdi-twitter-box"></span>
+          </a>
+          <a href="https://www.linkedin.com/in/niberra/" class="p-2">
+            <span class="mdi mdi-linkedin-box"></span>
+          </a>
+        </p>
+      </blockquote>
+    </div>
+    <div class="team-member" data-aos="fade-up" data-aos-delay="100">
+      <a>
+        <img src="@/assets/organizers/seba.jpg" alt="Seba" />
+      </a>
+      <blockquote>
+        <p class="team-member-name">Sebastián Perez (AKA Seba)</p>
+        <p class="team-member-role">
+          <a href="https://twitter.com/sebaleoperez" class="p-2">
+            <span class="mdi mdi-twitter-box"></span>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/sebasti%C3%A1n-leonardo-p%C3%A9rez-6881659/"
+            class="p-2"
+          >
+            <span class="mdi mdi-linkedin-box"></span>
+          </a>
+        </p>
+      </blockquote>
+    </div>
+  </div>
 </template>
 
 <script lang="ts">
@@ -74,91 +68,72 @@ export default class Team extends Vue {}
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-section {
-  width: 100%;
+.team-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0;
   box-sizing: border-box;
+  width: 100%;
 
-  .container {
-    align-items: center;
-    margin: 15px auto;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    overflow: auto;
-    padding: 20px;
-    padding-left: calc(150px * 0.15);
+  @media (max-width: 400px) {
+    display: block;
+  }
 
-    @media (max-width: 600px) {
-      flex-direction: column;
+  .team-member {
+    width: 300px;
+    height: auto;
+    display: inline-block;
+    background-color: #e8e0c5;
+    margin: 10px;
+
+    @media (max-width: 400px) {
+      margin: 10px 0;
+    }
+    a {
+      //margin: 0;
+      display: block;
+
+      img {
+        clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+        width: 100%;
+      }
     }
 
-    .team-member {
-      position: relative;
-      clip-path: polygon(15% 0, 100% 0%, 85% 100%, 0% 100%);
-      flex-shrink: 0;
-      width: 300px;
-      height: 300px;
-      margin-left: calc(-300px * 0.15);
-      display: inline-block;
+    blockquote {
+      width: 100%;
+      margin: 0;
+      text-align: right;
 
-      @media (max-width: 600px) {
-        clip-path: polygon(
-          20% 0,
-          100% 0%,
-          100% 100%,
-          20% 100%,
-          20% 80%,
-          0 80%,
-          20% 60%
-        );
-      }
-
-      a {
-        //margin: 0;
-        display: block;
-
-        img {
-          width: 100%;
-        }
-      }
-
-      blockquote {
-        position: absolute;
-        bottom: 10%;
-        left: 15%;
-        width: 100%;
+      p {
         margin: 0;
-        clip-path: polygon(
-          25% 25%,
-          20% 0,
-          45% 25%,
-          100% 25%,
-          100% 100%,
-          0 100%,
-          0 25%
-        );
-        padding-top: 10%;
-        background-color: gold;
+        padding: 5px;
+        display: inline;
 
-        p {
-          margin: 0;
-          background-color: white;
-          width: 100%;
-          padding: 5px;
-          border: 2px solid gold;
-
-          a {
-            float: right;
-            margin: auto 5px;
-          }
+        a {
+          float: right;
+          margin: auto 5px;
         }
+      }
 
-        .team-member-name {
-          width: 75%;
-          background-color: gold;
-          color: black;
-          text-transform: uppercase;
+      .team-member-name {
+        color: black;
+        text-transform: uppercase;
+        font-weight: bolder;
+      }
+
+      .team-member-role {
+        display: block;
+        font-size: 2em;
+
+        a {
+          &:first-child {
+            color: #38a1f3;
+          }
+          &:nth-child(2) {
+            color: #0077b5;
+          }
         }
       }
     }

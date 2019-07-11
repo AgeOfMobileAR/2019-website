@@ -1,8 +1,16 @@
 <template>
-  <section id="speakers" class="speakers-section" data-aos="fade-up" data-aos-delay="100">
-    <HeroTitle :heroTitle="'Oradores'" :heroType="'female'" />
-    <div class="container">
-      <p>La convocatoria para oradores se abrirá en breve.</p>
+  <section
+    id="speakers"
+    class="speakers-section"
+    data-aos="fade-up"
+    data-aos-delay="100"
+    :style="{'background-image': `url(${require('@/assets/content_blue.png')})`}"
+  >
+    <div>
+      <HeroTitle :heroTitle="'Oradores'" />
+      <div class="container">
+        <p>La convocatoria para oradores se abrirá en breve.</p>
+      </div>
     </div>
   </section>
 </template>
@@ -21,21 +29,38 @@ export default class Speakers extends Vue {}
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-@import "@/styles/foldCorner.scss";
 section {
-  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-evenly;
+  width: 90vw;
+  height: 90vh;
+  margin: 5vh 5vw;
+  padding: 7.5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
   box-sizing: border-box;
+  background-size: 100% 100%;
+  overflow: hidden;
+  max-height: 90vh;
 
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-    position: relative;
+  div {
+    width: auto;
+    height: auto;
     overflow: hidden;
-    box-sizing: border-box;
-    padding: 1em;
+    overflow-y: scroll;
+
+    .container {
+      display: flex;
+      color: white;
+      align-items: center;
+      font-size: 1.5em;
+      text-align: center;
 
       p {
         display: inline-block;
@@ -43,10 +68,13 @@ section {
         margin: 2em 0;
         font-size: 1.5em;
         text-transform: uppercase;
-        background-color: #092B35;
-        color: white;
         padding: 1em;
+        background-color: rgba(224, 106, 55, 0.9);
+        font-family: "Bangers", cursive;
+        text-shadow: 2px 2px black;
+        clip-path: polygon(4% 0, 100% 0, 99% 100%, 0 94%);
       }
+    }
   }
 }
 </style>

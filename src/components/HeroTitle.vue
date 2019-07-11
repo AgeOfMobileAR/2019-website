@@ -1,8 +1,5 @@
 <template>
-  <div>
-    <img v-if="heroType == 'male'" src="@/assets/Male.png" />
-    <img v-if="heroType == 'female'" src="@/assets/female.png" />
-    <div class="arrow"></div>
+  <div :style="{'background-image': `url(${require('@/assets/title.png')})`}">
     <p>{{heroTitle}}</p>
   </div>
 </template>
@@ -28,31 +25,20 @@ export default class HeroTitle extends Vue {}
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 div {
-  width: 100vw;
-  display: flex;
-  height: 100px;
-  align-items: center;
-  justify-content: flex-start;
+  display: inline-block;
   color: black;
-  font-family: "Bangers", cursive;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-size: 100% 100%;
+  width: max-content;
 
-  img {
-    height: 100%;
-  }
-
-  .arrow {
-    height: 100%;
-    width: 1em;
-    background-color: gold;
-    clip-path: polygon(100% 35%, 0 50%, 100% 65%);
-  }
   p {
+    display: inline-block;
+    font-family: "Indie Flower", cursive;
     font-size: 2em;
     padding: 1em;
-    background-color: gold;
-    border-radius: 1em;
-    margin-left: -1px;
-    box-shadow: 0.2em 0.2em black;
+    margin: 0;
   }
 }
 </style>

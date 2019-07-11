@@ -1,8 +1,8 @@
 <template>
-  <div id="app">
-    <Header/>
-    <router-view/>
-    <Footer/>
+  <div id="app" :style="{'background-image': `url(${require('@/assets/background.jpg')})`}">
+    <Header /> 
+    <router-view />
+    <Footer />
   </div>
 </template>
 
@@ -23,13 +23,22 @@ export default class App extends Vue {}
 
 <style lang="scss">
 body {
-  font-family: 'Gudea', sans-serif;
+  font-family: "Gudea", sans-serif;
   box-sizing: border-box;
-  margin: 0px;
-  background-color: #10C3D7;
+  margin: 0;
+  padding: 0;
+  background-color: #1B151E;
 
   #app {
-    padding: 0px;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    box-sizing: border-box;
   }
 }
 </style>

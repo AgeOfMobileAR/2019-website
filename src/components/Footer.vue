@@ -14,11 +14,12 @@ export default class Footer extends Vue {}
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
   width: 100vw;
   background-color: black;
   color: white;
-  margin: -8px;
-  //margin-top: 8px;
   text-align: center;
   padding: 5px;
   
