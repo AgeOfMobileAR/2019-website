@@ -8,8 +8,8 @@
   >
     <div>
       <HeroTitle :heroTitle="'Oradores'" />
-      <div class="container">
-        <p>La convocatoria para oradores se abrirá en breve.</p>
+      <div class="container" @click="navigate">
+        <p>¿Querés ser orador?</p>
       </div>
     </div>
   </section>
@@ -24,7 +24,11 @@ import HeroTitle from "@/components/HeroTitle.vue";
     HeroTitle
   }
 })
-export default class Speakers extends Vue {}
+export default class Speakers extends Vue {
+  navigate() {
+    window.location.href = "https://sessionize.com/age-of-mobile-v2019/";
+  }
+}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -73,6 +77,7 @@ section {
         font-family: "Bangers", cursive;
         text-shadow: 2px 2px black;
         clip-path: polygon(4% 0, 100% 0, 99% 100%, 0 94%);
+        cursor: pointer;
       }
     }
   }
