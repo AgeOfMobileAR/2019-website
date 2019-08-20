@@ -5,7 +5,7 @@
     data-aos-delay="100"
     :style="{'background-image': `url(${require('@/assets/content_blue.png')})`}"
   >
-    <div>
+    <div class="about-container">
       <HeroTitle :heroTitle="'El evento'" />
       <div class="container">
         <div>
@@ -60,7 +60,7 @@ section {
   overflow: hidden;
   max-height: 90vh;
 
-  div {
+  .about-container {
     width: auto;
     height: auto;
     overflow: hidden;

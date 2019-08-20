@@ -1,6 +1,6 @@
 <template>
   <section :style="{'background-image': `url(${require('@/assets/content_blue.png')})`}">
-    <div class="site-wrap">
+    <div class="coc-container">
       <!-- <div>
         <div class="container">
           <div class="row mb-5">
@@ -277,7 +277,7 @@ section {
   overflow: hidden;
   max-height: 90vh;
 
-  div {
+  .coc-container {
     width: auto;
     height: auto;
     overflow: hidden;

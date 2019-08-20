@@ -39,6 +39,7 @@ body {
     background-size: cover;
     background-position-x: center;
     box-sizing: border-box;
+    overflow: hidden;
   }
 }
 </style>

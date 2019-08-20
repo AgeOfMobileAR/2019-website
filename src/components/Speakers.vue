@@ -6,7 +6,7 @@
     data-aos-delay="100"
     :style="{'background-image': `url(${require('@/assets/content_blue.png')})`}"
   >
-    <div>
+    <div class="speaker-container">
       <HeroTitle :heroTitle="'Oradores'" />
       <div class="container" @click="navigate">
         <p>¿Querés ser orador?</p>
@@ -53,7 +53,7 @@ section {
   overflow: hidden;
   max-height: 90vh;
 
-  div {
+  .speaker-container {
     width: auto;
     height: auto;
     overflow: hidden;

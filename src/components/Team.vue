@@ -2,6 +2,22 @@
   <div class="team-container">
     <div class="team-member" data-aos="fade-up" data-aos-delay="100">
       <a>
+        <img src="@/assets/organizers/caro.jpg" alt="Teban" />
+      </a>
+      <blockquote>
+        <p class="team-member-name">Carolina Amarillo (AKA Caro)</p>
+        <p class="team-member-role">
+          <a href="https://twitter.com/carobamarillo" class="p-2">
+            <span class="mdi mdi-twitter-box"></span>
+          </a>
+          <a href="https://www.linkedin.com/in/carolina-amarillo-86719a150/" class="p-2">
+            <span class="mdi mdi-linkedin-box"></span>
+          </a>
+        </p>
+      </blockquote>
+    </div>
+    <div class="team-member" data-aos="fade-up" data-aos-delay="100">
+      <a>
         <img src="@/assets/organizers/teban.jpg" alt="Teban" />
       </a>
       <blockquote>
