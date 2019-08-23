@@ -31,20 +31,9 @@ export default class Header extends Vue {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 section {
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: space-evenly;
   width: 100vw;
   height: 100vh;
-  padding: 5%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-x: center;
-  box-sizing: border-box;
+  background-color: rgba(0,0,0,0.2);
 
   .logo {
     text-align: center;

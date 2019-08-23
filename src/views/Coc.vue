@@ -1,17 +1,6 @@
 <template>
   <section :style="{'background-image': `url(${require('@/assets/content_blue.png')})`}">
     <div class="coc-container">
-      <!-- <div>
-        <div class="container">
-          <div class="row mb-5">
-            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-              <div class="site-section-heading">
-                <h2>Código de Conducta</h2>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>-->
       <div data-aos="fade-up" data-aos-delay="100">
         <HeroTitle :heroTitle="'Propósito'" />
         <div data-aos="fade-up" data-aos-delay="200">
@@ -258,23 +247,14 @@ export default class Coc extends Vue {}
 
 <style lang="scss" scoped>
 section {
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: space-evenly;
   width: 90vw;
   height: 90vh;
   margin: 5vh 5vw;
-  padding: 7.5%;
+
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
-  box-sizing: border-box;
   background-size: 100% 100%;
-  overflow: hidden;
   max-height: 90vh;
 
   .coc-container {
@@ -283,73 +263,19 @@ section {
     overflow: hidden;
     overflow-y: scroll;
 
-    p, a, ul {
+    p,
+    a,
+    ul {
       color: white;
       align-items: center;
       font-size: 1.5em;
       text-align: justify;
-  font-family: "Gudea", sans-serif;
+      font-family: "Gudea", sans-serif;
 
-  @media (max-width: 800px) {
-      font-size: 1em;
-      }      
+      @media (max-width: 800px) {
+        font-size: 1em;
+      }
     }
   }
 }
-
-// .site-wrap {
-//   display: flex;
-//   flex-direction: row;
-//   flex-wrap: wrap;
-//   justify-content: space-evenly;
-//   // align-items: center;
-//   width: 90%;
-//   margin: 5% auto;
-//   position: relative;
-//   overflow: hidden;
-
-//   section {
-//     width: 50%;
-//     overflow: hidden;
-//     background-color: white;
-//     position: relative;
-//     border: 2px solid black;
-//     box-sizing: border-box;
-//     // @include folded-corner(white, 2em, 60deg);
-
-//     .outer-box {
-//       position: absolute;
-//       top: -1px;
-//       left: 0;
-//       z-index: 1;
-//       background: #000;
-//       padding: 0.25em;
-//       width: 75%;
-//       -webkit-clip-path: polygon(0 0, 82% 0, 96% 91%, 0% 100%);
-//       clip-path: polygon(0 0, 82% 0, 96% 91%, 0% 100%);
-
-//       .box {
-//         margin-right: 2em;
-//         background: gold;
-//         padding: 0.5em;
-//         width: 96%;
-//         -webkit-clip-path: polygon(0 0, 82% 0, 96% 91%, 0% 100%);
-//         clip-path: polygon(0 0, 82% 0, 96% 91%, 0% 100%);
-
-//         h2 {
-//           font-size: 1em;
-//           color: black;
-//           margin: 0;
-//           margin-right: 2em;
-//         }
-//       }
-//     }
-
-//     div:nth-child(2) {
-//       margin: 1em;
-//       margin-top: 4em;
-//       // width: 100%;
-//     }
-//   }
-// }
 </style>

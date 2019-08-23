@@ -2,9 +2,9 @@
   <section id="sponsors" class="sponsors-section" data-aos="fade-up" data-aos-delay="100" :style="{'background-image': `url(${require('@/assets/content_blue.png')})`}">
     <div class="container">
       <HeroTitle :heroTitle="'Sponsors'" />
-      <div class="speaker-dialog" @click="mailto" title="ageofmobilear@gmail.com">
+      <!-- <div class="speaker-dialog" @click="mailto" title="ageofmobilear@gmail.com">
         <p>¡¡Quiero ser Sponsor!!</p>
-      </div>
+      </div> -->
       <div class="sponsors">
         <div class="sponsor-container-lg">
           <div class="sponsor-lg">
@@ -83,23 +83,14 @@ export default class Sponsors extends Vue {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 section {
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: space-evenly;
   width: 90vw;
   height: 90vh;
   margin: 5vh 5vw;
-  padding: 7.5%;
+
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
-  box-sizing: border-box;
   background-size: 100% 100%;
-  overflow: hidden;
   max-height: 90vh;
 
   .container {

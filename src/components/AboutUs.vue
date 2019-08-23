@@ -41,23 +41,14 @@ export default class AboutUs extends Vue {}
 
 <style scoped lang="scss">
 section {
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: space-evenly;
   width: 90vw;
   height: 90vh;
   margin: 5vh 5vw;
-  padding: 7.5%;
+
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
-  box-sizing: border-box;
   background-size: 100% 100%;
-  overflow: hidden;
   max-height: 90vh;
 
   .about-container {

@@ -13,7 +13,7 @@
         <!-- <router-link class="nav-link" to="/agenda" v-on:click.native="changeIcon">Agenda</router-link> -->
         <router-link class="nav-link" to="/speakers" v-on:click.native="changeIcon">Speakers</router-link>
         <router-link class="nav-link" to="/sponsors" v-on:click.native="changeIcon">Sponsors</router-link>
-        <router-link class="nav-link" to="https://www.eventbrite.com.ar/e/age-of-mobile-ar-v2019-tickets-68087799441" v-on:click.native="changeIcon">Entradas</router-link>
+        <router-link class="nav-link" to="/tickets" v-on:click.native="changeIcon">Entradas</router-link>
         <router-link class="nav-link" to="/coc" v-on:click.native="changeIcon">Código de Conducta</router-link>
       </ul>
     </nav>

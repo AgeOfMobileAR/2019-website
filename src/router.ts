@@ -42,15 +42,16 @@ export default new Router({
       path: "/coc",
       name: "coc",
       component: Coc
+    },
+    {
+      path: "/tickets",
+      name: "tickets",
+      beforeEnter() {
+        window.open(
+          "https://www.eventbrite.com.ar/e/age-of-mobile-ar-v2019-tickets-68087799441"
+        );
+        location.href = "/";
+      }
     }
-    // {
-    //   path: "/about",
-    //   name: "about",
-    //   // route level code-splitting
-    //   // this generates a separate chunk (about.[hash].js) for this route
-    //   // which is lazy-loaded when the route is visited.
-    //   component: () =>
-    //     import(/* webpackChunkName: "about" */ "./views/About.vue")
-    // }
   ]
 });

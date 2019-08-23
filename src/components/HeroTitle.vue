@@ -1,5 +1,5 @@
 <template>
-  <div :style="{'background-image': `url(${require('@/assets/title.png')})`}">
+  <div>
     <p>{{heroTitle}}</p>
   </div>
 </template>
@@ -26,18 +26,24 @@ export default class HeroTitle extends Vue {}
 <style scoped lang="scss">
 div {
   display: inline-block;
-  color: black;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-x: center;
-  background-size: 100% 100%;
   width: max-content;
+  max-width: 95%;
+
+  padding: 0.5em;
+  background-color: rgb(224, 106, 55);
+  margin: 0 5px;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 2px 2px black;
+  text-decoration: none;
+  transition: transform 0.25s ease-out;
+  clip-path: polygon(4% 0, 100% 0, 99% 100%, 0 94%);
 
   p {
     display: inline-block;
-    font-family: "Indie Flower", cursive;
+    font-family: "Bangers", cursive;
     font-size: 2em;
-    padding: 1em;
+    padding: 0 1em;
     margin: 0;
   }
 }

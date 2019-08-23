@@ -1,0 +1,46 @@
+[
+    {
+      "Id": "1",
+      "FirstName": "Carolina",
+      "LastName": "Amarillo",
+      "TagLine": "Developer en Mercado Libre",
+      "Bio": "",
+      "Twitter": "https://twitter.com/carobamarillo",
+      "LinkedIn": "https://www.linkedin.com/in/carolina-amarillo-86719a150/",
+      "Blog": "",
+      "Profile Picture": "/img/organizers/caro.jpg"
+    },
+    {
+      "Id": "2",
+      "FirstName": "Esteban",
+      "LastName": "Yañez",
+      "TagLine": "Engineering Lead en SOUTHWORKS",
+      "Bio": "Esteban es desarrollador de software con más de 5 años de experiencia en tecnologías del ecosistema de Microsoft. Trabaja con las últimas tecnologías, especialmente relacionadas con Cloud Computing, Web y Mobile Development. Actualmente, se desempeña como Engineering Lead en SOUTHWORKS. Además, fue mentor en Acamica para la carrera Full Stack Developer. Es organizador de los eventos vOpen Ar, Age of Mobile, Xamarin Assemble y Dev Day Ar. Participa frecuentemente como orador en conferencias de desarrollo de software y es un activo contribuyente a la comunidad técnica.",
+      "Twitter": "https://twitter.com/Teban3010",
+      "LinkedIn": "https://www.linkedin.com/in/eyanez89/",
+      "Blog": "",
+      "Profile Picture": "/img/organizers/teban.jpg"
+    },
+    {
+      "Id": "3",
+      "FirstName": "Nahir",
+      "LastName": "Iberra",
+      "TagLine": "Talent Acquisition Specialist en Solstice",
+      "Bio": "Con más de 6 años de experiencia trabajando en empresas de tecnología, actualmente es Talent Acquisition Specialist en Solstice. Le gusta organizar eventos: es parte del equipo organizdor de Age Of Mobile, es co-organizadora de NodeConf Ar 2018 y fue voluntaria en .NET Conf 2018, Dev Day 2018 y Xamarin Assemble 2019. Además juega al fútbol, estudia cine y baila contemporáneo. ",
+      "Twitter": "https://twitter.com/na_iberra",
+      "LinkedIn": "https://www.linkedin.com/in/niberra/",
+      "Blog": "",
+      "Profile Picture": "/img/organizers/nanu.jpg"
+    },
+    {
+      "Id": "4",
+      "FirstName": "Sebastián",
+      "LastName": "Pérez",
+      "TagLine": "Blockchain developer en RSK",
+      "Bio": "",
+      "Twitter": "https://twitter.com/sebaleoperez",
+      "LinkedIn": "https://www.linkedin.com/in/sebasti%C3%A1n-leonardo-p%C3%A9rez-6881659/",
+      "Blog": "",
+      "Profile Picture": "/img/organizers/seba.jpg"
+    }
+  ]

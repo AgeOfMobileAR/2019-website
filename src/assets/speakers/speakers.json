@@ -1,0 +1,134 @@
+[
+    {
+      "Id": "69caf1e8-9ae0-4808-9b8b-e1189856714c",
+      "FirstName": "Andrés",
+      "LastName": "Villanueva",
+      "TagLine": "Angular Engineer en Hero Devs",
+      "Bio": "Andrés  Villanueva, o el pana, como muchos lo conocen,  es Ingeniero de Frontend con varios años de experiencia en la construcción de aplicaciones web de alto performance. Ha trabajado en varias empresas de renombre tanto en Venezuela, su país de origen, como en Argentina. Es un apasionado colaborador de las comunidades de JS en Argentina, Google Developer Expert para Firebase, Gif Expert y Evangelizador de la Arepa.",
+      "Twitter": "https://twitter.com/villanuevand",
+      "LinkedIn": "",
+      "Blog": "",
+      "Profile Picture": "https://sessionize.com/image?f=806ec9cb8279b165440c624a158d22fc,200,200,True,False,e8-9ae0-4808-9b8b-e1189856714c.c1f459f3-3fd4-4928-a438-77a334cb4b69.jpg"
+    },
+    {
+      "Id": "b5bf8888-5b91-4c6a-86e6-069c2a81a4e9",
+      "FirstName": "Diego",
+      "LastName": "Aguirre",
+      "TagLine": "Desarrollador de Realidad Virtual y AI @FourPlayers",
+      "Bio": "Diego Aguirre es un Desarrollador de Software Latino Americano🇻🇪 De 26 años de edad, especializado en Realidad Aumentada. Emprendedor tecnológico apasionado por las tecnologías inmersivas (AR, VR, MR). \nPreviamente estudiante de cine de animación se inicio en el mundo de la programación en el 2016 con un proyecto de Unity3D. Actualmente desarrollador de Realidad Virtual e Inteligencia Artificial en Four Players.",
+      "Twitter": "Https://twitter.com/Geekydiego",
+      "LinkedIn": "Https://LinkedIn.com/un/SrDiegoAguirre",
+      "Blog": "Https://Instagram.com/geekydiego",
+      "Profile Picture": "https://sessionize.com/image?f=87a90607f45693c0801ee2ff4b7121ac,200,200,True,False,88-5b91-4c6a-86e6-069c2a81a4e9.813da847-80c3-47ae-be7f-2e906852f9ea.jpeg"
+    },
+    {
+      "Id": "c2cd4db5-6bf2-41d3-bf69-886a4461a0b9",
+      "FirstName": "Emiliano",
+      "LastName": "Ocariz",
+      "TagLine": "Sr. Software Architect",
+      "Bio": "Soy Ingeniero en Informática y hace más de 15 años que trabajo en informática, desarrollando, liderando equipos, gestionando y capacitando. \n\nMe apasionan las nuevas tecnologías y todo el potencial que liberan y todas las áreas que revolucionan. Creo, que el fin último de la tecnología es ayudarnos, tanto como individuos y a las empresas, para liberar todo el potencial.",
+      "Twitter": "https://twitter.com/EmilianoOke",
+      "LinkedIn": "https://www.linkedin.com/in/ocarizemiliano/",
+      "Blog": "http://www.emilianoocariz.com/",
+      "Profile Picture": "https://sessionize.com/image?f=5686476ec4242909833f383ad4145048,200,200,True,False,cd13aa34-d478-486d-acb9-e48fe871c900.jpg"
+    },
+    {
+      "Id": "9d630957-49bf-4717-b0e5-a16121e185fd",
+      "FirstName": "Estefanía",
+      "LastName": "Gilges",
+      "TagLine": "Head of Design - Lagash",
+      "Bio": "Estefanía Gilges es Head of Design en Lagash y docente de UX de Acámica. Comenzó como diseñadora de interfaces, fue creciendo hasta formar y liderar el equipo de UX y ahora brinda capacitaciones, lidera y facilita workshops. \n\nEstudió Diseñadora Gráfica en la Universidad de Buenos Aires y fue docente 3 de la materia Morfología. \n\nHace más de 10 años que diseña y desarrolla ideas para diferentes clientes dentro de la consultora y en agencias digitales. Realizó cursos y talleres que la formaron en User Experience, User Research, Design Thinking, Scrum Master, Agile Team Facilitator y Project Management. \n\nEs apasionada del diseño, de buscar soluciones, desenmarañar proyectos, generar experiencias y siempre poner al usuario en el centro de la escena.",
+      "Twitter": "http://twitter.com/soyteff",
+      "LinkedIn": "https://www.linkedin.com/in/estefan%C3%ADa-gilges/",
+      "Blog": "",
+      "Profile Picture": "https://sessionize.com/image?f=17c14cf4da8f3f5dda33c87b9ba13786,200,200,True,False,57-49bf-4717-b0e5-a16121e185fd.29c4517b-811c-4f35-bffa-dbb8e03dc297.jpg"
+    },
+    {
+      "Id": "54858824-facb-4e02-a6f5-1cd6ba97fdd7",
+      "FirstName": "Eugenia",
+      "LastName": "Echevarria",
+      "TagLine": "Product Designer en Lagash",
+      "Bio": "Me especializo en el proceso de diseño de la experiencia del usuario en productos digitales, tanto UX como UI, con más de 6 años trabajando en proyectos públicos y privados. Soy diseñadora gráfica por la Universidad de Buenos Aires. Actualmente me desempeño como Product Designer en Lagash en el área de Discovery, corriendo Design Sprints con foco en productos digitales para diferentes proyectos donde llevamos a cabo researchs, comprendemos las diferentes problemáticas, definimos soluciones que iteramos constantemente, testeamos prototipos. También soy profe de UX del programa Lagash University de la empresa. En mi tiempo libre Ilustro, canto y juego con mis gatitos Rami y Oli.",
+      "Twitter": "",
+      "LinkedIn": "https://www.linkedin.com/in/eugeniaechevarria/",
+      "Blog": "https://www.instagram.com/eugecheva/",
+      "Profile Picture": "https://sessionize.com/image?f=21e575fe12e2ae8d283fc5161bf0b3e9,200,200,True,False,24-facb-4e02-a6f5-1cd6ba97fdd7.c41c1867-2907-4c47-8730-f5a45e240020.jpg"
+    },
+    {
+      "Id": "f65d5901-7c24-44ac-8b7e-eeba6441b88b",
+      "FirstName": "Facundo",
+      "LastName": "Rodríguez Arceri",
+      "TagLine": "Organizador en Android Devs Buenos Aires y GDG Buenos Aires",
+      "Bio": "Desarrollo apps para Android desde Donut 🍩",
+      "Twitter": "http://www.twitter.com/facundomr",
+      "LinkedIn": "https://www.linkedin.com/in/facundomr/",
+      "Blog": "https://medium.com/@facundomr",
+      "Profile Picture": "https://sessionize.com/image?f=8ba9a5bdd39356d53570e1b421883f1e,200,200,True,False,7656b070-704f-4481-9cc7-bf7574066ad8.jpg"
+    },
+    {
+      "Id": "9c43c000-1e0d-4333-ac9c-b68b629066cf",
+      "FirstName": "Gladys Lorena",
+      "LastName": "Ayala",
+      "TagLine": "Diseñadora UX",
+      "Bio": "Creo en el diseño como herramienta de comunicación, y que el diseño de aplicaciones grandiosas permite mejorar la vida de las personas. \nHace más de una década que me dedico al diseño, me recibí de diseñadora en la Universidad de la Plata y desde entonces he colaborado en el desarrollo de aplicaciones comerciales web y móviles como UX Designer, liderando la definición y elaboración visual en proyectos dinámicos y con equipos de desarrollo multidisciplinarios. \nTrabaje en la imagen de marca municipal de Berazategui, en sistemas internos de Carrefour, Cenconsud, la planeación y elaboración de la nueva forma de buscar trabajo propuesta por Meentas y decenas de proyectos de StartUps.",
+      "Twitter": "",
+      "LinkedIn": "https://www.linkedin.com/in/ayalalorena/",
+      "Blog": "",
+      "Profile Picture": "https://sessionize.com/image?f=16362c7e8c495315092d1bd42b6fe72e,200,200,True,False,d5f97f75-cb84-4770-ae9c-e2676efb7a2b.jpg"
+    },
+    {
+      "Id": "3fdfb798-ef52-40e3-b0c2-d09df419816f",
+      "FirstName": "Lis",
+      "LastName": "Fernandez",
+      "TagLine": "Product Designer & UX Consultant",
+      "Bio": "Se desempeña como UX Strategist & Consultant, es Product Designer en Toptal. Fundamentalista de UX, tiene más de 8 años de experiencia creando interfaces digitales con foco en mobile apps nativas en Android y iOS. \nAdemás, lideró el equipo de Product Design en Ualá y diseñó experiencias mobile para Almundo.com, Personal Fest, Aeropuertos Argentina 2000 y Cosquín Rock.",
+      "Twitter": "https://twitter.com/todotieneux",
+      "LinkedIn": "https://www.linkedin.com/in/lisfernandez/",
+      "Blog": "",
+      "Profile Picture": "https://sessionize.com/image?f=0e1e4a241de66c604eb04fb9ecc2173a,200,200,True,False,98-ef52-40e3-b0c2-d09df419816f.fa7f9387-c1e6-4e69-a511-14e74ef72a85.png"
+    },
+    {
+      "Id": "61591996-328d-4538-9661-4e87a4a5714d",
+      "FirstName": "Nahuel",
+      "LastName": "Zapata",
+      "TagLine": "iOS Software Engineer - Despegar",
+      "Bio": "Soy Nahuel Zapata, trabajo como iOS Engineer hace 4 años, y actualmente trabajo en Despegar.\n\nSoy co-organizador de las meetups de Swift, y de vez en cuando, me gusta dar charlas, así como también me gusta ayudar en lo que pueda para que la comunidad se siga expandiendo.",
+      "Twitter": "https://twitter.com/iNahuelZapata",
+      "LinkedIn": "https://www.linkedin.com/in/inahuelzapata/",
+      "Blog": "",
+      "Profile Picture": "https://sessionize.com/image?f=b333c3653e371a39ebc67da315d91b42,200,200,True,False,96-328d-4538-9661-4e87a4a5714d.e27d32f1-b314-47f6-a89a-83078ba89ab5.jpeg"
+    },
+    {
+      "Id": "20a98e99-4a94-4d72-8be6-473524da5d03",
+      "FirstName": "Nicolás",
+      "LastName": "Milcoff",
+      "TagLine": "Mobile Lead Developer",
+      "Bio": "Nicolas is a mobile developer and Xamarin expert from Argentina who is passionate about mobile development. He is also an avid open source contributor and is a proud member of the MvvmCross maintainers team.\nNico has worked as a Lead Developer for 4 years and he has also participated as speaker in several international conferences. He loves to push forward the technologies he works with.",
+      "Twitter": "https://twitter.com/nmilcoff",
+      "LinkedIn": "https://www.linkedin.com/in/nmilcoff/",
+      "Blog": "",
+      "Profile Picture": "https://sessionize.com/image?f=c6b11c53836cdbba898f732269d7ca7e,200,200,True,False,99-4a94-4d72-8be6-473524da5d03.67c5610c-3517-4acd-a073-0714b126654e.JPG"
+    },
+    {
+      "Id": "908f23eb-0218-4a74-ad45-2585032042da",
+      "FirstName": "Rodri",
+      "LastName": "De Luca",
+      "TagLine": "TheFork, Engineering Manager",
+      "Bio": "Se desempeña como Engineering Manager en TheFork y a la vez también contribuye con el desarrollo de la aplicación iOS.\nAdemás junto con dos amigos lanzaron Anden, una app sobre transporte público.",
+      "Twitter": "http://twitter.com/rodrideluca/photo",
+      "LinkedIn": "https://www.linkedin.com/in/rodrideluca/",
+      "Blog": "",
+      "Profile Picture": "https://sessionize.com/image?f=b88ef5cd14af4ee13dfb680b2f672c23,200,200,True,False,eb-0218-4a74-ad45-2585032042da.89e31147-9647-4456-9cda-88271a3028ee.jpg"
+    },
+    {
+      "Id": "8cbc1672-8dd1-4f67-8aac-ec4c3fdb90a2",
+      "FirstName": "Yury",
+      "LastName": "Camacho",
+      "TagLine": "Google Developer Expert for Android",
+      "Bio": "Yury is Systems Engineer and Google Developer Expert for Android. He is passionate about technology and software development, working in mobile applications development since 2010. Yury is GDG Cochabamba organizer. He likes to learn and share with the communities of developers and entrepreneurs giving talks, workshops and mentoring. Globant , OLX Group former,  He's  an independent consultant.",
+      "Twitter": "https://twitter.com/camachoyury",
+      "LinkedIn": "https://www.linkedin.com/in/camachoyury/",
+      "Blog": "",
+      "Profile Picture": "https://sessionize.com/image?f=50e260c46a266dbac8d495c97937edeb,200,200,True,False,8954bbdd-023d-4c1e-a527-026dc8041ad8.jpg"
+    }
+  ]
