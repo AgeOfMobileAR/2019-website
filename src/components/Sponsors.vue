@@ -58,6 +58,11 @@
               <img src="@/assets/sponsors/reactBA.jpg" alt />
             </a>
           </div>
+          <div class="sponsor-xs">
+            <a href="http://www.net-baires.com.ar/" target="_blank">
+              <img src="@/assets/sponsors/netbaires.png" alt />
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -98,6 +103,7 @@ section {
     height: auto;
     overflow: hidden;
     overflow-y: scroll;
+    padding-right: 20px;
 
     .speaker-dialog {
       position: relative;

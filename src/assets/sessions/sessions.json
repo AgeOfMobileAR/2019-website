@@ -1,0 +1,130 @@
+[
+    {
+      "Id": "37741127-4889-4eb9-8a75-db407bb76753",
+      "Tipo": "Common",
+      "Hora": "9:00",
+      "Title": "Apertura",
+      "Description": "",
+      "Speakers": ""
+    },
+    {
+      "Id": "3c193811-c529-4b33-a3fb-c4297e0c5a13",
+      "Tipo": "Session",
+      "Hora": "9:15",
+      "Title": "¿Qué necesitas para crear una app VR en mobile?",
+      "Description": "Hay estudios que dicen que nuestros hijos trabajarán en empleos que aún no se han creado. Desarrollador de VR es un empleo del futuro. \n\nYo propongo en esta charla una mirada a mi vida como desarrollador de realidad. Los retos que conlleva y todos los límites mentales que tuve que superar para poder llegar trabajar en un nicho que está en pleno auge.",
+      "Speakers": "Diego Aguirre"
+    },
+    {
+      "Id": "59f199e1-7612-4d79-985e-ffa08371eec7",
+      "Tipo": "Session",
+      "Hora": "9:50",
+      "Title": "Diseño UX en aplicaciones mobile",
+      "Description": "Diseñar mejores experiencias de usuario (UX) y aplicar los conceptos fundamentales.\nComprender las distintas fases de un proyecto UX.",
+      "Speakers": "Gladys Lorena Ayala"
+    },
+    {
+      "Id": "b8dae8d2-4ddf-480c-acaa-6f94aba923ad",
+      "Tipo": "Session",
+      "Hora": "10:25",
+      "Title": "Xamarin en Apps empresariales",
+      "Description": "En la presentación se verá la experiencia de migración desde Android nativo a Xamarin (Forms) y las características técnicas de una aplicación que tiene más de 15 años (previamente Windows Mobile), presente en Femsa Coca Cola y empresas de primer nivel en todo el mundo.",
+      "Speakers": "Emiliano Ocariz"
+    },
+    {
+      "Id": "2c226754-6c9b-4d7d-a11c-45282ed4c901",
+      "Tipo": "Common",
+      "Hora": "11:00",
+      "Title": "Coffee Break",
+      "Description": "",
+      "Speakers": ""
+    },
+    {
+      "Id": "d9b83b6e-0b9f-41b1-a5fa-9abd4a937e72",
+      "Tipo": "Session",
+      "Hora": "11:20",
+      "Title": "Modern Android Development",
+      "Description": "Android cumplió 10 años y muchas cosas han cambiado en la forma de desarrollar apps nativas desde entonces. En esta charla repasaremos los puntos esperables de un Stack actualizado de herramientas para desarrollar apps desde cero: Kotlin, corrutinas, arquitectura MVVM, Jetpack, librerías (Dagger/Koin, Retrofit, RxJava2) y layouts (ConstraintLayout/MotionLayout).",
+      "Speakers": "Facundo Rodríguez Arceri, Yury Camacho"
+    },
+    {
+      "Id": "5a173393-f446-4252-b9ba-b906c373ebea",
+      "Tipo": "Session",
+      "Hora": "11:55",
+      "Title": "Panel de empresas",
+      "Description": "",
+      "Speakers": ""
+    },
+    {
+      "Id": "233d75ef-f67d-4058-8cd6-8e9d986111eb",
+      "Tipo": "Session",
+      "Hora": "12:40",
+      "Title": "Empatía: la clave en la dinámica de desarrollo & diseño",
+      "Description": "Compartir los aprendizajes que nos sirvieron para trabajar mejor en equipo, optimizando el tiempo del otro mientras pero también construyendo un producto más fuerte desde los distintos enfoques de cada rol.\n\n--\nLa charla busca demostrar y motivar que los desarrolladores pueden aportar más que código a la visión de un producto digital, alejándose del lugar operativo y apropiándose de la experiencia de uso. Busca también acercar a los diseñadores a mejores prácticas de diseño conjunto al front-end.",
+      "Speakers": "Lis Fernandez, Rodri De Luca"
+    },
+    {
+      "Id": "0571d45d-190c-49ea-a9ce-3f2c98527a97",
+      "Tipo": "Common",
+      "Hora": "13:15",
+      "Title": "Almuerzo (No incluido por el evento)",
+      "Description": "",
+      "Speakers": ""
+    },
+    {
+      "Id": "ad6bfea4-01df-4ca6-af08-f22d983d861e",
+      "Tipo": "Session",
+      "Hora": "14:15",
+      "Title": "Hoy te convertís en un héroe",
+      "Description": "Vos también podes ser parte de la comunidad, vos tenes algo que te hace único, vos tenes algo para dar. /n /n Esta charla es sobre comunidad, como un simple dev como yo (y posiblemente como vos) puede hacer la diferencia en la comunidad. /n Quiero compartir mi viaje, desde ser un “consumidor” de la comunidad a participar en Stack Overflow, tener mi propio blog y un proyecto open source con más de 100.000 descargas.",
+      "Speakers": "Dario Kondratiuk"
+    },
+    {
+      "Id": "243bf4c7-7e83-4fc2-ad55-0e3adf6075e3",
+      "Tipo": "Session",
+      "Hora": "14:50",
+      "Title": "Architecture of Empires a.k.a iOS Apps",
+      "Description": "En esta charla, vamos a repasar el porqué es importante tener una arquitectura bien definida desde los baby steps de nuestras aplicaciones, y cómo esto repercute en el día a día y en la experiencia del desarrollador a lo largo de las diferentes instancias de desarrollo de nuestras apps. \n\nTambién vamos a repasar el abanico de opciones que tenemos a mano para definir cuál queremos adoptar en nuestras apps, en base a las problemáticas más comunes, viendo los pros y contras que estas traen consigo.",
+      "Speakers": "Nahuel Zapata"
+    },
+    {
+      "Id": "ba525e75-00e8-4b3b-b204-c9bc6e042bb6",
+      "Tipo": "Session",
+      "Hora": "15:25",
+      "Title": "Visual Studio App Center: Nuestro centro de operaciones",
+      "Description": "Visual Studio App Center es una plataforma que nos permite realizar builds, tests, deploys, autenticar usuarios, enviar notificaciones push y monitorear apps. Y la lista sigue. En esta sesión exploraremos la plataforma y veremos cómo podemos sacarle el mayor provecho sin importar que tecnología mobile estemos utilizando.",
+      "Speakers": "Nicolás Milcoff"
+    },
+    {
+      "Id": "67ad6aae-1831-40ce-9bad-fa8e76a0c0e8",
+      "Tipo": "Common",
+      "Hora": "16:00",
+      "Title": "Coffee Break",
+      "Description": "",
+      "Speakers": ""
+    },
+    {
+      "Id": "157862c9-5590-477a-94c5-3d602344412a",
+      "Tipo": "Session",
+      "Hora": "16:20",
+      "Title": "¡Discovery, no te tenemos miedo!",
+      "Description": "¿Alguna vez quisiste pasar de una idea a una app? ¿Validas tus prototipos? ¿Cómo pensás tus MVPs? ¿Visualizas tus hipótesis? En esta charla vamos a contarte algunos pasos y tips para transformar tu idea en un producto digital",
+      "Speakers": "Estefanía Gilges, Eugenia Echevarria"
+    },
+    {
+      "Id": "28af35ce-c6d7-4cc1-a345-622f80673316",
+      "Tipo": "Session",
+      "Hora": "16:55",
+      "Title": "Panel de expertos",
+      "Description": "",
+      "Speakers": ""
+    },
+    {
+      "Id": "b0a782c0-62f4-4e3e-95e0-bb1080e27bd5",
+      "Tipo": "Common",
+      "Hora": "17:40",
+      "Title": "Cierre",
+      "Description": "",
+      "Speakers": ""
+    }
+  ]

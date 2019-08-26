@@ -60,6 +60,7 @@ section {
     height: auto;
     overflow: hidden;
     overflow-y: scroll;
+    padding-right: 20px;
 
     .speaker-container {
       display: flex;

@@ -56,6 +56,7 @@ section {
     height: auto;
     overflow: hidden;
     overflow-y: scroll;
+    padding-right: 20px;
 
     .container {
       display: flex;

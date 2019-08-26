@@ -1,14 +1,14 @@
 [
     {
       "Id": "69caf1e8-9ae0-4808-9b8b-e1189856714c",
-      "FirstName": "Andrés",
-      "LastName": "Villanueva",
-      "TagLine": "Angular Engineer en Hero Devs",
-      "Bio": "Andrés  Villanueva, o el pana, como muchos lo conocen,  es Ingeniero de Frontend con varios años de experiencia en la construcción de aplicaciones web de alto performance. Ha trabajado en varias empresas de renombre tanto en Venezuela, su país de origen, como en Argentina. Es un apasionado colaborador de las comunidades de JS en Argentina, Google Developer Expert para Firebase, Gif Expert y Evangelizador de la Arepa.",
-      "Twitter": "https://twitter.com/villanuevand",
-      "LinkedIn": "",
-      "Blog": "",
-      "Profile Picture": "https://sessionize.com/image?f=806ec9cb8279b165440c624a158d22fc,200,200,True,False,e8-9ae0-4808-9b8b-e1189856714c.c1f459f3-3fd4-4928-a438-77a334cb4b69.jpg"
+      "FirstName": "Dario",
+      "LastName": "Kondratiuk",
+      "TagLine": "Author of Puppeteer-Sharp",
+      "Bio": "Web Developer with 15+ years on the web industry. Author of Puppeteer-Sharp. Passionate about C#, the web, remote work, and the open source community.",
+      "Twitter": "https://twitter.com/hardkoded",
+      "LinkedIn": "https://www.linkedin.com/in/dar%C3%ADo-kondratiuk/",
+      "Blog": "https://www.hardkoded.com/",
+      "Profile Picture": "https://sessionize.com/image?f=606b53949d68478e9df8c9cfd72f6415,200,200,True,False,a2-9c65-4bcc-8cfd-ebe4b18325b3.639f7bb7-5609-4efe-aa6a-1ab54f4319b2.png"
     },
     {
       "Id": "b5bf8888-5b91-4c6a-86e6-069c2a81a4e9",

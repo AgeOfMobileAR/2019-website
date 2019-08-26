@@ -2,7 +2,7 @@ import Vue from "vue";
 import Router from "vue-router";
 import Home from "./components/Home.vue";
 import About from "./components/AboutUs.vue";
-// import Agenda from "./components/Agenda.vue";
+import Agenda from "./components/Agenda.vue";
 import Speakers from "./components/Speakers.vue";
 import Sponsors from "./components/Sponsors.vue";
 import Coc from "./views/Coc.vue";
@@ -23,11 +23,11 @@ export default new Router({
       name: "about",
       component: About
     },
-    // {
-    //   path: "/agenda",
-    //   name: "agenda",
-    //   component: Agenda
-    // },
+    {
+      path: "/agenda",
+      name: "agenda",
+      component: Agenda
+    },
     {
       path: "/speakers",
       name: "speakers",

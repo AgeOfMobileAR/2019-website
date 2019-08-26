@@ -10,7 +10,7 @@
       <ul :class="open ? 'open' : ''">
         <router-link class="nav-link" to="/" v-on:click.native="changeIcon">Home</router-link>
         <router-link class="nav-link" to="/about" v-on:click.native="changeIcon">El evento</router-link>
-        <!-- <router-link class="nav-link" to="/agenda" v-on:click.native="changeIcon">Agenda</router-link> -->
+        <router-link class="nav-link" to="/agenda" v-on:click.native="changeIcon">Agenda</router-link>
         <router-link class="nav-link" to="/speakers" v-on:click.native="changeIcon">Speakers</router-link>
         <router-link class="nav-link" to="/sponsors" v-on:click.native="changeIcon">Sponsors</router-link>
         <router-link class="nav-link" to="/tickets" v-on:click.native="changeIcon">Entradas</router-link>
@@ -53,7 +53,7 @@ header {
     width: 100%;
     z-index: 100;
     font-family: "Bangers", cursive;
-      text-shadow: 2px 2px black;
+    text-shadow: 2px 2px black;
 
     @media (max-width: 800px) {
       &.open {
