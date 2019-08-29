@@ -66,6 +66,17 @@
       "Profile Picture": "https://sessionize.com/image?f=8ba9a5bdd39356d53570e1b421883f1e,200,200,True,False,7656b070-704f-4481-9cc7-bf7574066ad8.jpg"
     },
     {
+      "Id": "8cbc1672-8dd1-4f67-8aac-ec4c3fdb90a2",
+      "FirstName": "Yury",
+      "LastName": "Camacho",
+      "TagLine": "Google Developer Expert for Android",
+      "Bio": "Yury is Systems Engineer and Google Developer Expert for Android. He is passionate about technology and software development, working in mobile applications development since 2010. Yury is GDG Cochabamba organizer. He likes to learn and share with the communities of developers and entrepreneurs giving talks, workshops and mentoring. Globant , OLX Group former,  He's  an independent consultant.",
+      "Twitter": "https://twitter.com/camachoyury",
+      "LinkedIn": "https://www.linkedin.com/in/camachoyury/",
+      "Blog": "",
+      "Profile Picture": "https://sessionize.com/image?f=50e260c46a266dbac8d495c97937edeb,200,200,True,False,8954bbdd-023d-4c1e-a527-026dc8041ad8.jpg"
+    },
+    {
       "Id": "9c43c000-1e0d-4333-ac9c-b68b629066cf",
       "FirstName": "Gladys Lorena",
       "LastName": "Ayala",
@@ -86,6 +97,28 @@
       "LinkedIn": "https://www.linkedin.com/in/lisfernandez/",
       "Blog": "",
       "Profile Picture": "https://sessionize.com/image?f=0e1e4a241de66c604eb04fb9ecc2173a,200,200,True,False,98-ef52-40e3-b0c2-d09df419816f.fa7f9387-c1e6-4e69-a511-14e74ef72a85.png"
+    },
+    {
+      "Id": "908f23eb-0218-4a74-ad45-2585032042da",
+      "FirstName": "Rodri",
+      "LastName": "De Luca",
+      "TagLine": "TheFork, Engineering Manager",
+      "Bio": "Se desempeña como Engineering Manager en TheFork y a la vez también contribuye con el desarrollo de la aplicación iOS.\nAdemás junto con dos amigos lanzaron Anden, una app sobre transporte público.",
+      "Twitter": "http://twitter.com/rodrideluca/photo",
+      "LinkedIn": "https://www.linkedin.com/in/rodrideluca/",
+      "Blog": "",
+      "Profile Picture": "https://sessionize.com/image?f=b88ef5cd14af4ee13dfb680b2f672c23,200,200,True,False,eb-0218-4a74-ad45-2585032042da.89e31147-9647-4456-9cda-88271a3028ee.jpg"
+    },
+    {
+      "Id": "b367bb25-5ea6-4910-8b0d-c91d40a00715",
+      "FirstName": "Ignacio",
+      "LastName": "Oviedo",
+      "TagLine": "Desarrollador android",
+      "Bio": "Desarrollador android",
+      "Twitter": "",
+      "LinkedIn": "",
+      "Blog": "",
+      "Profile Picture": ""
     },
     {
       "Id": "61591996-328d-4538-9661-4e87a4a5714d",
@@ -110,25 +143,25 @@
       "Profile Picture": "https://sessionize.com/image?f=c6b11c53836cdbba898f732269d7ca7e,200,200,True,False,99-4a94-4d72-8be6-473524da5d03.67c5610c-3517-4acd-a073-0714b126654e.JPG"
     },
     {
-      "Id": "908f23eb-0218-4a74-ad45-2585032042da",
-      "FirstName": "Rodri",
-      "LastName": "De Luca",
-      "TagLine": "TheFork, Engineering Manager",
-      "Bio": "Se desempeña como Engineering Manager en TheFork y a la vez también contribuye con el desarrollo de la aplicación iOS.\nAdemás junto con dos amigos lanzaron Anden, una app sobre transporte público.",
-      "Twitter": "http://twitter.com/rodrideluca/photo",
-      "LinkedIn": "https://www.linkedin.com/in/rodrideluca/",
+      "Id": "4dd14770-9bc0-4c4e-9b93-01244a25b37f",
+      "FirstName": "Jorge",
+      "LastName": "Cano",
+      "TagLine": "Principal engineer - HeroDevs",
+      "Bio": "After more than 10 years working in the tech industry, Jorge is a full stack developer with focus on JavaScript technologies. Today, Jorge is working at Hero Devs using Angular / RxJS / Firebase as well as other technologies. He delivered several courses and talks as well as write some tech articles on these subjects. Because of that, he was recognised as a Google Developer Expert in Angular & web technologies and Nativescript Developer Expert.",
+      "Twitter": "https://twitter.com/jorgeucano",
+      "LinkedIn": "",
       "Blog": "",
-      "Profile Picture": "https://sessionize.com/image?f=b88ef5cd14af4ee13dfb680b2f672c23,200,200,True,False,eb-0218-4a74-ad45-2585032042da.89e31147-9647-4456-9cda-88271a3028ee.jpg"
+      "Profile Picture": "https://sessionize.com/image?f=43f565e5946b8f2fadc6cfd9841250cc,200,200,True,False,70-9bc0-4c4e-9b93-01244a25b37f.84a94192-d2d0-41c4-b554-1daf1f3c65f2.JPG"
     },
     {
-      "Id": "8cbc1672-8dd1-4f67-8aac-ec4c3fdb90a2",
-      "FirstName": "Yury",
-      "LastName": "Camacho",
-      "TagLine": "Google Developer Expert for Android",
-      "Bio": "Yury is Systems Engineer and Google Developer Expert for Android. He is passionate about technology and software development, working in mobile applications development since 2010. Yury is GDG Cochabamba organizer. He likes to learn and share with the communities of developers and entrepreneurs giving talks, workshops and mentoring. Globant , OLX Group former,  He's  an independent consultant.",
-      "Twitter": "https://twitter.com/camachoyury",
-      "LinkedIn": "https://www.linkedin.com/in/camachoyury/",
-      "Blog": "",
-      "Profile Picture": "https://sessionize.com/image?f=50e260c46a266dbac8d495c97937edeb,200,200,True,False,8954bbdd-023d-4c1e-a527-026dc8041ad8.jpg"
+      "Id": "90919736-c6ed-4972-b64d-8ce73fd7814e",
+      "FirstName": "Marcos",
+      "LastName": "Griselli",
+      "TagLine": "iOS Developer @ Toptal & iOS Open Source Libraries",
+      "Bio": "Marcos es un desarrollador iOS freelance que trabaja con clientes de varias partes del mundo y crea librerias open source de UI para iOS en Swift. También, es uno de los organizadores de la SwifBA Meetup y BA: Swiftable Conference.",
+      "Twitter": "https://twitter.com/marcosgriselli",
+      "LinkedIn": "https://www.linkedin.com/in/marcos-griselli-7a719655/",
+      "Blog": "https://mar.codes",
+      "Profile Picture": "https://sessionize.com/image?f=a268dc9d95d7b0af2aea2ca03793897c,200,200,True,False,36-c6ed-4972-b64d-8ce73fd7814e.72e4a2ec-2529-48a2-8723-03cf69474146.jpg"
     }
   ]

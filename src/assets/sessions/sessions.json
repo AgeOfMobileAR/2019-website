@@ -56,12 +56,12 @@
       "Speakers": ""
     },
     {
-      "Id": "233d75ef-f67d-4058-8cd6-8e9d986111eb",
+      "Id": "243bf4c7-7e83-4fc2-ad55-0e3adf6075e3",
       "Tipo": "Session",
       "Hora": "12:40",
-      "Title": "Empatía: la clave en la dinámica de desarrollo & diseño",
-      "Description": "Compartir los aprendizajes que nos sirvieron para trabajar mejor en equipo, optimizando el tiempo del otro mientras pero también construyendo un producto más fuerte desde los distintos enfoques de cada rol.\n\n--\nLa charla busca demostrar y motivar que los desarrolladores pueden aportar más que código a la visión de un producto digital, alejándose del lugar operativo y apropiándose de la experiencia de uso. Busca también acercar a los diseñadores a mejores prácticas de diseño conjunto al front-end.",
-      "Speakers": "Lis Fernandez, Rodri De Luca"
+      "Title": "Architecture of Empires a.k.a iOS Apps",
+      "Description": "En esta charla, vamos a repasar el porqué es importante tener una arquitectura bien definida desde los baby steps de nuestras aplicaciones, y cómo esto repercute en el día a día y en la experiencia del desarrollador a lo largo de las diferentes instancias de desarrollo de nuestras apps. \n\nTambién vamos a repasar el abanico de opciones que tenemos a mano para definir cuál queremos adoptar en nuestras apps, en base a las problemáticas más comunes, viendo los pros y contras que estas traen consigo.",
+      "Speakers": "Nahuel Zapata"
     },
     {
       "Id": "0571d45d-190c-49ea-a9ce-3f2c98527a97",
@@ -76,16 +76,16 @@
       "Tipo": "Session",
       "Hora": "14:15",
       "Title": "Hoy te convertís en un héroe",
-      "Description": "Vos también podes ser parte de la comunidad, vos tenes algo que te hace único, vos tenes algo para dar. /n /n Esta charla es sobre comunidad, como un simple dev como yo (y posiblemente como vos) puede hacer la diferencia en la comunidad. /n Quiero compartir mi viaje, desde ser un “consumidor” de la comunidad a participar en Stack Overflow, tener mi propio blog y un proyecto open source con más de 100.000 descargas.",
+      "Description": "Vos también podes ser parte de la comunidad, vos tenes algo que te hace único, vos tenes algo para dar. Esta charla es sobre comunidad, como un simple dev como yo (y posiblemente como vos) puede hacer la diferencia en la comunidad. Quiero compartir mi viaje, desde ser un “consumidor” de la comunidad a participar en Stack Overflow, tener mi propio blog y un proyecto open source con más de 100.000 descargas",
       "Speakers": "Dario Kondratiuk"
     },
     {
-      "Id": "243bf4c7-7e83-4fc2-ad55-0e3adf6075e3",
+      "Id": "233d75ef-f67d-4058-8cd6-8e9d986111eb",
       "Tipo": "Session",
       "Hora": "14:50",
-      "Title": "Architecture of Empires a.k.a iOS Apps",
-      "Description": "En esta charla, vamos a repasar el porqué es importante tener una arquitectura bien definida desde los baby steps de nuestras aplicaciones, y cómo esto repercute en el día a día y en la experiencia del desarrollador a lo largo de las diferentes instancias de desarrollo de nuestras apps. \n\nTambién vamos a repasar el abanico de opciones que tenemos a mano para definir cuál queremos adoptar en nuestras apps, en base a las problemáticas más comunes, viendo los pros y contras que estas traen consigo.",
-      "Speakers": "Nahuel Zapata"
+      "Title": "Empatía: la clave en la dinámica de desarrollo & diseño",
+      "Description": "Compartir los aprendizajes que nos sirvieron para trabajar mejor en equipo, optimizando el tiempo del otro mientras pero también construyendo un producto más fuerte desde los distintos enfoques de cada rol.\n\n--\nLa charla busca demostrar y motivar que los desarrolladores pueden aportar más que código a la visión de un producto digital, alejándose del lugar operativo y apropiándose de la experiencia de uso. Busca también acercar a los diseñadores a mejores prácticas de diseño conjunto al front-end.",
+      "Speakers": "Lis Fernandez, Rodri De Luca"
     },
     {
       "Id": "ba525e75-00e8-4b3b-b204-c9bc6e042bb6",
@@ -117,7 +117,7 @@
       "Hora": "16:55",
       "Title": "Panel de expertos",
       "Description": "",
-      "Speakers": ""
+      "Speakers": "Nicolás Milcoff, Yury Camacho, Marcos Griselli, Jorge Cano"
     },
     {
       "Id": "b0a782c0-62f4-4e3e-95e0-bb1080e27bd5",

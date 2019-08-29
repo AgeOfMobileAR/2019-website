@@ -63,6 +63,11 @@
               <img src="@/assets/sponsors/netbaires.png" alt />
             </a>
           </div>
+          <div class="sponsor-xs">
+            <a href="https://www.womenwhocode.com/buenosaires" target="_blank">
+              <img src="@/assets/sponsors/wwcodeba.png" alt />
+            </a>
+          </div>
         </div>
       </div>
     </div>
