@@ -2,7 +2,7 @@
   <div class="member" data-aos="fade-up" data-aos-delay="100" v-if="member">
     <div class="member-photo" :id="'member-' + member.Id" @click="toggleInfo(member.Id)">
       <a>
-        <img :src="member['Profile Picture']" alt="Nanu" />
+        <img :src="member['Profile Picture']" :alt="member.FirstName" />
       </a>
       <blockquote>
         <p class="member-name">{{member.FirstName}} {{member.LastName}}</p>

@@ -66,17 +66,6 @@
       "Profile Picture": "https://sessionize.com/image?f=8ba9a5bdd39356d53570e1b421883f1e,200,200,True,False,7656b070-704f-4481-9cc7-bf7574066ad8.jpg"
     },
     {
-      "Id": "8cbc1672-8dd1-4f67-8aac-ec4c3fdb90a2",
-      "FirstName": "Yury",
-      "LastName": "Camacho",
-      "TagLine": "Google Developer Expert for Android",
-      "Bio": "Yury is Systems Engineer and Google Developer Expert for Android. He is passionate about technology and software development, working in mobile applications development since 2010. Yury is GDG Cochabamba organizer. He likes to learn and share with the communities of developers and entrepreneurs giving talks, workshops and mentoring. Globant , OLX Group former,  He's  an independent consultant.",
-      "Twitter": "https://twitter.com/camachoyury",
-      "LinkedIn": "https://www.linkedin.com/in/camachoyury/",
-      "Blog": "",
-      "Profile Picture": "https://sessionize.com/image?f=50e260c46a266dbac8d495c97937edeb,200,200,True,False,8954bbdd-023d-4c1e-a527-026dc8041ad8.jpg"
-    },
-    {
       "Id": "9c43c000-1e0d-4333-ac9c-b68b629066cf",
       "FirstName": "Gladys Lorena",
       "LastName": "Ayala",
@@ -163,5 +152,16 @@
       "LinkedIn": "https://www.linkedin.com/in/marcos-griselli-7a719655/",
       "Blog": "https://mar.codes",
       "Profile Picture": "https://sessionize.com/image?f=a268dc9d95d7b0af2aea2ca03793897c,200,200,True,False,36-c6ed-4972-b64d-8ce73fd7814e.72e4a2ec-2529-48a2-8723-03cf69474146.jpg"
+    },
+    {
+      "Id": "2a25ee20-a4fe-48c4-917d-e34ac3aaa259",
+      "FirstName": "Mariano",
+      "LastName": "Zorrilla",
+      "TagLine": "Head of Mobile Developers en HighSide",
+      "Bio": "Developer mobile apasionado por las nuevas tecnologías, dar charlas y ayudar a la comunidad.",
+      "Twitter": "http://www.twitter.com/geekmz",
+      "LinkedIn": "",
+      "Blog": "",
+      "Profile Picture": "https://sessionize.com/image?f=8713d428b20f528422a2df2c8ea67b97,200,200,True,False,20-a4fe-48c4-917d-e34ac3aaa259.6848292f-4725-44a2-8d1d-d666e5a7585a.jpg"
     }
   ]

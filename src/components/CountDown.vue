@@ -31,7 +31,7 @@ export default class Countdown extends Vue {
   hours: number = 0;
   minutes: number = 0;
   seconds: string = "0";
-  countdown: number = 0;
+  countdown: any = 0;
 
   convertFormat(deadline = 100, formatType: string = "seconds") {
     switch (formatType) {

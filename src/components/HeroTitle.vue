@@ -41,7 +41,7 @@ div {
 
   p {
     display: inline-block;
-    font-family: "Bangers", cursive;
+    font-family: "Bangers", sans-serif;
     font-size: 2em;
     padding: 0 1em;
     margin: 0;

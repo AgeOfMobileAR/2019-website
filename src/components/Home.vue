@@ -5,9 +5,30 @@
       <p>Age of Mobile</p>
     </div>
     <div class="info">
-      <Countdown />
+      <!-- <Countdown /> -->
       <p>31 AGOSTO 2019</p>
       <p class="address" @click="seeAdress">UTN.BA - Av. Medrano 951, CABA</p>
+      <p>
+        Seguinos en nuestras redes
+        <a
+          class="social"
+          href="https://twitter.com/AgeOfMobileAR"
+          target="blank"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <a
+          class="social"
+          href="https://www.facebook.com/Ageofmobilear-278337906374913/"
+          target="blank"
+          ><i class="fab fa-facebook-square"></i
+        ></a>
+        <a
+          class="social"
+          href="https://www.youtube.com/channel/UC_J0gWUoPNmjMySkpabe9YA"
+          target="blank"
+          ><i class="fab fa-youtube"></i
+        ></a>
+      </p>
     </div>
   </section>
 </template>
@@ -33,7 +54,7 @@ export default class Header extends Vue {
 section {
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0,0,0,0.2);
+  background-color: rgba(0, 0, 0, 0.2);
 
   .logo {
     text-align: center;
@@ -45,7 +66,7 @@ section {
     p {
       color: white;
       text-align: center;
-      font-family: "Bangers", cursive;
+      font-family: "Bangers", sans-serif;
       text-shadow: 2px 2px black;
       font-size: 5em;
       margin: 0;
@@ -61,7 +82,7 @@ section {
     margin: 1em 0;
     color: white;
     text-align: center;
-    font-family: "Bangers", cursive;
+    font-family: "Bangers", sans-serif;
     text-shadow: 2px 2px black;
 
     p {
@@ -75,6 +96,17 @@ section {
       @media (max-width: 800px) {
         font-size: 2em;
       }
+    }
+  }
+
+  .social {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+
+    &:hover,
+    &:active {
+      color: white;
     }
   }
 }

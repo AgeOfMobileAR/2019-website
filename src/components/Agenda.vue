@@ -2,7 +2,9 @@
   <section
     data-aos="fade-up"
     data-aos-delay="100"
-    :style="{'background-image': `url(${require('@/assets/content_blue.png')})`}"
+    :style="{
+      'background-image': `url(${require('@/assets/content_blue.png')})`
+    }"
   >
     <div class="agenda-container">
       <HeroTitle :heroTitle="'Agenda'" />
@@ -13,13 +15,25 @@
             :key="session.Id"
             v-bind:class="{ common: session.Tipo != 'Session' }"
           >
-            <h4>{{session.Hora}}</h4>
+            <h4>{{ session.Hora }}</h4>
             <div>
-              <h4>{{session.Title}}</h4>
-              <p class="name">{{session.Speakers}}</p>
-              <p :id="`desc-${session.Id}`" hidden>{{session.Description}}</p>
+              <h4>{{ session.Title }}</h4>
+              <p class="name">{{ session.Speakers }}</p>
+              <p :id="`desc-${session.Id}`" hidden>{{ session.Description }}</p>
             </div>
-            <span v-if="session.Tipo == 'Session' && session.Description" @click="toggleDescription(session.Id)">+</span>
+            <div v-if="session.Tipo == 'Session'">
+              <span
+                v-if="session.Description"
+                @click="toggleDescription(session.Id)"
+                >+</span
+              >
+              <span v-if="session.Slide"
+                ><a :href="session.Slide" target="blank"><i class="fas fa-chalkboard"></i></a
+              ></span>
+              <span v-if="session.Video"
+                ><a :href="session.Video"><i class="fab fa-youtube"></i></a
+              ></span>
+            </div>
           </li>
         </ul>
       </div>
@@ -113,16 +127,27 @@ section {
               font-size: 1.15rem;
 
               @media (max-width: 800px) {
-              font-size: 1rem;
-            }
+                font-size: 1rem;
+              }
             }
           }
 
-          span {
-            text-align: right;
+          div span {
+            display: block;
+            text-align: center;
             font-size: 2rem;
             cursor: pointer;
             width: 100%;
+
+            a {
+              color: white;
+              text-decoration: none;
+
+              &:hover,
+              &:active {
+                color: white;
+              }
+            }
           }
         }
       }

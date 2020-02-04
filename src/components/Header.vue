@@ -52,7 +52,7 @@ header {
     left: 0;
     width: 100%;
     z-index: 100;
-    font-family: "Bangers", cursive;
+    font-family: "Bangers", sans-serif;
     text-shadow: 2px 2px black;
 
     @media (max-width: 800px) {
@@ -64,7 +64,7 @@ header {
     }
 
     .nav-icon {
-      width: 50px;
+      width: 30px;
       height: 35px;
       position: absolute;
       top: 2vh;
@@ -82,7 +82,7 @@ header {
       span {
         display: block;
         position: absolute;
-        height: 9px;
+        height: 5px;
         width: 100%;
         background: #fff;
         border-radius: 9px;
@@ -97,18 +97,18 @@ header {
 
         &:nth-child(2),
         &:nth-child(3) {
-          top: 18px;
+          top: 10px;
         }
 
         &:nth-child(4) {
-          top: 36px;
+          top: 20px;
         }
       }
 
       &.open {
         span {
           &:nth-child(1) {
-            top: 18px;
+            top: 10px;
             width: 0%;
             left: 50%;
           }
@@ -122,7 +122,7 @@ header {
           }
 
           &:nth-child(4) {
-            top: 18px;
+            top: 10px;
             width: 0%;
             left: 50%;
           }

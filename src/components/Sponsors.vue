@@ -22,6 +22,11 @@
               <img src="@/assets/sponsors/Solstice.png" alt />
             </a>
           </div>
+          <div class="sponsor-lg">
+            <a href="https://www.linkedin.com/company/mercadolibre/" target="_blank">
+              <img src="@/assets/sponsors/MercadoLibre.png" alt />
+            </a>
+          </div>
         </div>
         <div class="sponsor-container-md">
         </div>
@@ -124,7 +129,7 @@ section {
         color: white;
         padding: 1em;
         background-color: rgba(224, 106, 55, 0.9);
-        font-family: "Bangers", cursive;
+        font-family: "Bangers", sans-serif;
         text-shadow: 2px 2px black;
         clip-path: polygon(4% 0, 100% 0, 99% 100%, 0 94%);
 
