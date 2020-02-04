@@ -1,29 +1,33 @@
 <template>
   <div class="member" data-aos="fade-up" data-aos-delay="100" v-if="member">
-    <div class="member-photo" :id="'member-' + member.Id" @click="toggleInfo(member.Id)">
+    <div
+      class="member-photo"
+      :id="'member-' + member.Id"
+      @click="toggleInfo(member.Id)"
+    >
       <a>
         <img :src="member['Profile Picture']" :alt="member.FirstName" />
       </a>
       <blockquote>
-        <p class="member-name">{{member.FirstName}} {{member.LastName}}</p>
-        <p class="member-tag-line">{{member.TagLine}}</p>
+        <p class="member-name">{{ member.FirstName }} {{ member.LastName }}</p>
+        <p class="member-tag-line">{{ member.TagLine }}</p>
       </blockquote>
     </div>
     <div class="member-info" :id="'member-info-' + member.Id" hidden>
-      <p class="member-name">{{member.FirstName}} {{member.LastName}}</p>
+      <p class="member-name">{{ member.FirstName }} {{ member.LastName }}</p>
       <span @click="toggleInfo(member.Id)">X</span>
-      <p class="member-bio">{{member.Bio}}</p>
-      <ul>
-        <li v-if="member.Twitter">
-          <a :href="member.Twitter" target="_blank">Twitter</a>
-        </li>
-        <li v-if="member.LinkedIn">
-          <a :href="member.LinkedIn" target="_blank">LinkedIn</a>
-        </li>
-        <li v-if="member.Blog">
-          <a :href="member.Blog" target="_blank">Blog</a>
-        </li>
-      </ul>
+      <p class="member-bio">{{ member.Bio }}</p>
+      <div>
+        <a v-if="member.Twitter" :href="member.Twitter" target="_blank"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <a v-if="member.LinkedIn" :href="member.LinkedIn" target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a v-if="member.Blog" :href="member.Blog" target="_blank"
+          ><i class="fab fa-blogger"></i
+        ></a>
+      </div>
     </div>
   </div>
 </template>
@@ -38,7 +42,7 @@ import HeroTitle from "@/components/HeroTitle.vue";
   }
 })
 export default class Member extends Vue {
-  @Prop({default: null}) member: any;
+  @Prop({ default: null }) member: any;
 
   toggleInfo(memberId: string) {
     const member = <HTMLDivElement>(
@@ -131,19 +135,20 @@ export default class Member extends Vue {
       font-size: 14px;
     }
 
-    ul {
+    div {
       margin: 0;
       padding: 0;
 
-      li {
-        margin: 0;
-        padding: 0;
-        list-style: none;
+      a {
+        color: white;
+        text-decoration: none;
+        font-family: "Gudea", sans-serif;
+      padding: 10px;
+      font-size: 1.5rem;
 
-        a {
+        &:hover,
+        &:active {
           color: white;
-          text-decoration: none;
-          font-family: "Gudea", sans-serif;
         }
       }
     }
